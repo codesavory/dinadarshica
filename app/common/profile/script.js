@@ -20,4 +20,7 @@ $(document).ready(function(){
         $(this).animate({left:"+=25px"},500);    
     });
     $("#usrattributes").accordion();
+    $("#message").hover(function(){
+        $(this).parent().toggleClass("colorme");    
+    });
 });

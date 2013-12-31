@@ -34,9 +34,11 @@ a{
 	padding:20px;
 	max-width:18%;
 	font-family:cursive;
-	cursor:hand;
 }
-h1 div div p{
+div h3{
+    	cursor:pointer;
+}
+div div p{
     color:#FF7F00;    
 }
 #flwrs{
@@ -50,7 +52,10 @@ h1 div div p{
     vertical-align:middle;
     text-align:center;
     font-size:17px;
-    
+    cursor:pointer; 
+    word-wrap: break-word;
+    color:#FAF0E6;
+    opacity:0.75;
 }
 #flwing{
     height:75px;
@@ -65,4 +70,8 @@ h1 div div p{
     margin: 0px auto 0px auto;
     text-align:center;
     font-size:17px;
+    cursor:pointer;
+    word-wrap: break-word;
+    color:#FAF0E6;
+    opacity:0.75;
 }
